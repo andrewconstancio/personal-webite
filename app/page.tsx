@@ -1,52 +1,51 @@
 "use client"
-import { useRef, useState, useEffect } from "react";
+import { useState, useEffect } from "react";
 import { Shell } from "@/components/shell";
 import { ThemeToggle } from "@/components/theme-toggle";
-import { TypewriterEffect, TypewriterEffectSmooth } from "@/components/ui/typewriter-effect";
+import { TypewriterEffectSmooth } from "@/components/ui/typewriter-effect";
 import {
   Avatar,
   AvatarFallback,
   AvatarImage,
 } from "@/components/ui/avatar"
-import { Link } from "lucide-react";
 import { PillView } from "@/components/pill-view";
 
   const words = [
     {
       text: "Hey, ",
-      className: "text-sm md:text-base"
+      // className: "text-sm md:text-base"
     },
     {
       text: "I'm",
-      className: "text-sm md:text-base"
+      // className: "text-sm md:text-base"
     },
     {
       text: "Andrew. ",
-      className: "text-sm md:text-base text-orange-500 dark:text-orange-300 ",
+      // className: "text-sm md:text-base text-orange-500 dark:text-orange-300 ",
     },
     {
       text: "Thanks",
-      className: "text-sm md:text-base"
+      // className: "text-sm md:text-base"
     },
     {
       text: "for",
-      className: "text-sm md:text-base"
+      // className: "text-sm md:text-base"
     },
     {
       text: "checking",
-      className: "text-sm md:text-base"
+      // className: "text-sm md:text-base"
     },
     {
       text: "out",
-      className: "text-sm md:text-base"
+      // className: "text-sm md:text-base"
     },
     {
       text: "my",
-      className: "text-sm md:text-base"
+      // className: "text-sm md:text-base"
     },
     {
       text: "page!",
-      className: "text-sm md:text-base"
+      // className: "text-sm md:text-base"
     },
   ];
 
